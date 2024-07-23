@@ -135,7 +135,7 @@ function promo(event) {
   var promo = stroka.promo.value;
   var ivan = "Зайцевский";
   if (promo == ivan) {
-    attention = "Ваш прмокод для ввода при заказе: _";
+    attention = "Ваш прмокод: SP1H7MKDZY9";
     document.getElementById("code").innerHTML = attention;
     document.getElementById("attention").style.display = "none";
   } else {
