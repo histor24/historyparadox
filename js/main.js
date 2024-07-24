@@ -55,7 +55,7 @@ function checkForm(event) {
     window.open('mailto:gkebgeorg27@gmail.com?subject=Вопрос от пользователя&body=Номер телефона:%20%0A%0AИмя в Телеграме:%20%0A%0AСообщение:%20%0A%0A');
   }
   else {
-    fail = "Проверьте правильность эл. почты";
+    fail = "Проверьте правильность имени Телеграм";
     document.getElementById("fail").innerHTML = fail;
     document.getElementById("fail").style.visibility = "visible";
   }
